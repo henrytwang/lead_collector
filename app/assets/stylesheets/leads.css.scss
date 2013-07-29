@@ -1,0 +1,97 @@
+// Place all the styles related to the leads controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+  font-family:"ProximaNovaBold";
+  src: font-url('proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('proximanova-bold-webfont.woff') format('woff'),
+         font-url('proximanova-bold-webfont.ttf')  format('truetype'),
+         font-url('proximanova-bold-webfont.svg#ProximaNovaBold') format('svg');
+}
+
+@font-face {
+  font-family:"ProximaNovaLight";
+  src: font-url('proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('proximanova-light-webfont.woff') format('woff'),
+         font-url('proximanova-light-webfont.ttf')  format('truetype'),
+         font-url('proximanova-light-webfont.svg#ProximaNovaLight') format('svg');
+}
+
+@font-face {
+  font-family:"ProximaNovaRegular";
+  src: font-url('proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('proximanova-regular-webfont.woff') format('woff'),
+         font-url('proximanova-regular-webfont.ttf')  format('truetype'),
+         font-url('proximanova-regular-webfont.svg#ProximaNovaRegular') format('svg');
+}
+
+@font-face {
+  font-family:"ProximaNovaSemiBold";
+  src: font-url('proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('proximanova-semibold-webfont.woff') format('woff'),
+         font-url('proximanova-semibold-webfont.ttf')  format('truetype'),
+         font-url('proximanova-semibold-webfont.svg#ProximaNovaSemiBold') format('svg');
+}
+
+body {
+  background-color: #ededed;
+}
+
+.main-logo {
+  margin: 60px auto;
+  width:300px;
+}
+
+.title, .subtitle {
+  text-align: center;
+}
+
+.title {
+  font-family: "ProximaNovaSemiBold", "Helvetica", "Arial", "sans-serif";
+  font-size: 30px;
+}
+
+.subtitle {
+  font-family: "ProximaNovaSemiBold", "Helvetica", "Arial", "sans-serif";
+  font-size: 20px;
+}
+
+.main-content {
+  background-color: #FFF;
+  padding: 30px;
+  border: 1px solid #E0E0E0;
+  font-family: "ProximaNovaRegular", "Helvetica", "Arial", "sans-serif";
+}
+
+.main-left {
+  float: left;
+}
+
+.main-right {
+  float: right;
+}
+
+.form {
+  width:400px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.form input {
+  border-radius: 5px;
+}
+
+.form input[type="submit"] {
+  font-family: "ProximaNovaSemiBold", "Helvetica", "Arial", "sans-serif";
+  letter-spacing: 2px;
+}
+
+.faq {
+  padding-bottom: 20px;
+}
+
+.faq h4 {
+  font-size: 20px;
+  font-family: "ProximaNovaSemiBold", "Helvetica", "Arial", "sans-serif";
+}

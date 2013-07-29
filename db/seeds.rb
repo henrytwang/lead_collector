@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+100.times do
+  lead = Lead.new(name: Faker::Name.name, email: Faker::Internet.email, phone: Faker::PhoneNumber.phone_number)
+  lead.save
+end

@@ -1,0 +1,50 @@
+<div class="main-logo">
+  <%= image_tag("42floors.png") %>
+</div>
+
+<div class="main-content large-8 large-centered columns">
+  <h1 class="title">
+    Professionally Photographed Listings Generate 47% More Tours
+  </h1>
+  <h2 class="subtitle">
+    Get matched with a professional photographer for free. Only available for San Francisco CRE listings.
+  </h2>
+  <div class="faq large-8 large-centered columns">
+    <h4>Free?</h4>
+    Yes, your photoshoot will be free. Well-photographed listings generate more interest and tours. We want the 42Floors community to succeed.
+  </div>
+  <div class="faq large-8 large-centered columns">
+    <h4>When will my photos be live on 42Floors?</h4>
+    Once your photographer uploads the photos from your shoot, our team reviews them. We want to make sure your photos are amazing, so this might take up to 2 weeks.
+  </div>
+  <div class="faq large-8 large-centered columns">
+    <h4>How do I apply?</h4>
+    Once you have confirmed your email address and verified your phone number, we'll be in contact and help you set up your listing.
+  </div>
+
+  <div class="form">
+  <%= form_for Lead.new do |f| %>
+    <div class="row">
+      <div class="large-12 large-centered columns">
+        <label for="name">Name</label>
+        <%= f.text_field :name, id: "name", placeholder: "Name"%>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-12 large-centered columns">
+        <label for="email">E-mail Address</label>
+        <%= f.text_field :email, id: "email", placeholder: "E-mail Address" %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-12 large-centered columns">
+        <label for="phone">Phone Number</label>
+        <%= f.text_field :phone, id: "phone", placeholder: "Phone Number" %>
+      </div>
+    </div>
+    <%= f.submit "RESERVE YOUR PHOTOSHOOT", class: "large-6 button expand"%>
+  <% end %>
+  </div>
+</div>
+
+
