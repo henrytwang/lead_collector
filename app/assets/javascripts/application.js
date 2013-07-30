@@ -14,5 +14,13 @@
 //= require jquery_ujs
 //= require foundation
 //= require_tree .
+//= require rails.validations
 
 $(function(){ $(document).foundation(); });
+
+$(document).ready(function(){
+   $(".name_error").appendTo(".name_label");
+   $(".email_error").appendTo(".email_label");
+   $(".phone_error").appendTo(".phone_label");
+});
+

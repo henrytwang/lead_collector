@@ -1,37 +1,21 @@
-// Place all the styles related to the leads controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 @font-face {
-  font-family:"ProximaNovaBold";
-  src: font-url('proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
-  font-url('proximanova-bold-webfont.woff') format('woff'),
-  font-url('proximanova-bold-webfont.ttf')  format('truetype'),
-  font-url('proximanova-bold-webfont.svg#ProximaNovaBold') format('svg');
+  font-family: "ProximaNovaBold";
+  src: font-url("proximanova-bold-webfont.eot?#iefix") format("embedded-opentype"), font-url("proximanova-bold-webfont.woff") format("woff"), font-url("proximanova-bold-webfont.ttf") format("truetype"), font-url("proximanova-bold-webfont.svg#ProximaNovaBold") format("svg");
 }
 
 @font-face {
-  font-family:"ProximaNovaLight";
-  src: font-url('proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
-  font-url('proximanova-light-webfont.woff') format('woff'),
-  font-url('proximanova-light-webfont.ttf')  format('truetype'),
-  font-url('proximanova-light-webfont.svg#ProximaNovaLight') format('svg');
+  font-family: "ProximaNovaLight";
+  src: font-url("proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), font-url("proximanova-light-webfont.woff") format("woff"), font-url("proximanova-light-webfont.ttf") format("truetype"), font-url("proximanova-light-webfont.svg#ProximaNovaLight") format("svg");
 }
 
 @font-face {
-  font-family:"ProximaNovaRegular";
-  src: font-url('proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
-  font-url('proximanova-regular-webfont.woff') format('woff'),
-  font-url('proximanova-regular-webfont.ttf')  format('truetype'),
-  font-url('proximanova-regular-webfont.svg#ProximaNovaRegular') format('svg');
+  font-family: "ProximaNovaRegular";
+  src: font-url("proximanova-regular-webfont.eot?#iefix") format("embedded-opentype"), font-url("proximanova-regular-webfont.woff") format("woff"), font-url("proximanova-regular-webfont.ttf") format("truetype"), font-url("proximanova-regular-webfont.svg#ProximaNovaRegular") format("svg");
 }
 
 @font-face {
-  font-family:"ProximaNovaSemiBold";
-  src: font-url('proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-  font-url('proximanova-semibold-webfont.woff') format('woff'),
-  font-url('proximanova-semibold-webfont.ttf')  format('truetype'),
-  font-url('proximanova-semibold-webfont.svg#ProximaNovaSemiBold') format('svg');
+  font-family: "ProximaNovaSemiBold";
+  src: font-url("proximanova-semibold-webfont.eot?#iefix") format("embedded-opentype"), font-url("proximanova-semibold-webfont.woff") format("woff"), font-url("proximanova-semibold-webfont.ttf") format("truetype"), font-url("proximanova-semibold-webfont.svg#ProximaNovaSemiBold") format("svg");
 }
 
 body {
@@ -40,7 +24,7 @@ body {
 
 .main-logo {
   margin: 40px auto;
-  width:300px;
+  width: 300px;
 }
 
 .title, .subtitle {
@@ -77,7 +61,7 @@ body {
 .faq {
   padding-bottom: 20px;
   float: right;
-  line-height:24px;
+  line-height: 24px;
 }
 
 .faq h4 {
@@ -95,7 +79,7 @@ body {
 }
 
 .carousel_image {
-  width:600px;
+  width: 600px;
 }
 
 #wrapper {
@@ -109,6 +93,7 @@ body {
 #carousel {
   margin-top: -100px;
 }
+
 #carousel div {
   text-align: center;
   width: 600px;
@@ -116,12 +101,15 @@ body {
   float: left;
   position: relative;
 }
+
 #carousel div img {
   border: none;
 }
+
 #carousel div span {
   display: none;
 }
+
 #carousel div:hover span {
   background-color: #333;
   color: #fff;

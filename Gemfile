@@ -26,6 +26,7 @@ gem 'jquery-rails'
 gem 'faker'
 gem 'hirb'
 gem 'thin'
+gem 'client_side_validations'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
