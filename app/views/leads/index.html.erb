@@ -2,35 +2,40 @@
   <%= link_to image_tag("42floors.png"), "http://www.42floors.com", target: "_blank" %>
 </div>
 
-<div class="main-content large-6 large-centered columns">
-  <h1 class="title">
-    Reserve Your Free Office Photoshoot Today
-  </h1>
-  <h2 class="subtitle">
-    Generate 47% More Tours. Available for San Francisco and NYC CRE listings.
-  </h2>
-
-  <%= form_for Lead.new, :validate => true do |f| %>
-  <div class="row">
-    <div class="large-12 columns">
-      <label class="name_label" for="name">Name</label>
-      <%= f.text_field :name, id: "name", placeholder: "Name", :required => true%>
-    </div>
+<div class="row">
+  <div class="main-content large-8 large-centered columns">
+    <h1 class="title">
+      Reserve Your Free Office Photoshoot Today
+    </h1>
+    <h2 class="subtitle">
+      High quality photos on listings generate 47% more tours.<br/ ><br/ >
+      Our photographers work for well-known publications.<br/ ><br/ >
+      Verified listings attract more visitors.
+    </h2>
+  </div><!--
+  --><div class="form large-4 large-centered columns">
+      <%= form_for Lead.new, :validate => true do |f| %>
+      <div class="row">
+        <div class="large-12 columns">
+          <label class="name_label" for="name">Name</label>
+          <%= f.text_field :name, id: "name", placeholder: "Name", :required => true%>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+          <label class="email_label" for="email">E-mail Address</label>
+          <%= f.text_field :email, id: "email", placeholder: "E-mail Address", :required => true %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+          <label class="phone_label" for="phone">Phone Number</label>
+          <%= f.text_field :phone, id: "phone", placeholder: "Phone Number", :required => true %>
+        </div>
+      </div>
+      <%= f.submit "APPLY FOR A SPOT", class: "large-6 button expand"%>
+      <% end %>
   </div>
-  <div class="row">
-    <div class="large-12 columns">
-      <label class="email_label" for="email">E-mail Address</label>
-      <%= f.text_field :email, id: "email", placeholder: "E-mail Address", :required => true %>
-    </div>
-  </div>
-  <div class="row">
-    <div class="large-12 columns">
-      <label class="phone_label" for="phone">Phone Number</label>
-      <%= f.text_field :phone, id: "phone", placeholder: "Phone Number", :required => true %>
-    </div>
-  </div>
-  <%= f.submit "RESERVE YOUR PHOTOSHOOT", class: "large-6 button expand"%>
-  <% end %>
 </div>
 
 <div id="wrapper">
@@ -71,17 +76,35 @@
   </div>
 </div>
 
-<div class="questions">
-  <div class="faq large-3 large-centered columns">
+<div class="questions row large-centered">
+  <div class="faq large-4 columns">
     <h4>Free?</h4>
     Yes, your photoshoot will be completely free. Well-photographed listings generate more interest and tours. We want the 42Floors community to succeed.
   </div>
-  <div class="faq large-3 large-centered columns">
+  <div class="faq large-4 columns">
     <h4>When will my photos be live on 42Floors?</h4>
     Once your photographer uploads the photos from your shoot, our team reviews them. We want to make sure your photos are amazing, so this might take up to 2 weeks.
   </div>
-  <div class="faq large-3 large-centered columns">
+  <div class="faq large-4 columns">
     <h4>How do I apply?</h4>
     Once you have confirmed your email address and verified your phone number, we'll be in contact and help you set up your listing.
   </div>
 </div>
+
+<div class="testimonial large-8 large-centered columns">
+  <div class="row">
+    <div class="quote large-offset-1 large-8 columns">
+      “Nobody made a bigger splash in the CRE-Tech start-up scene this year than the team at 42Floors.”
+    </div>
+    <div class="quote-author large-3 columns">
+      <%= image_tag "Coy_Davidson.png", class: "coy_davidson" %><br/>
+      Coy Davidson, SVP<br/ >
+      Colliers International
+    </div>
+  </div>
+</div>
+
+<div class="contact">
+  Questions and Feedback? 888-842-4243
+</div>
+

@@ -19,34 +19,45 @@
 }
 
 body {
-  background-color: #ededed;
+  background-color: #e2e2e2;
 }
 
 .main-logo {
-  margin: 40px auto;
-  width: 300px;
+  margin: 60px auto;
+  width: 200px;
 }
 
 .title, .subtitle {
   text-align: center;
-  font-family: "ProximaNovaSemiBold", "Helvetica", "Arial", "sans-serif";
 }
 
 .title {
-  font-size: 30px;
+  font-size: 28px;
+  font-family: "ProximaNovaSemiBold", "Helvetica", "Arial", "sans-serif";
 }
 
 .subtitle {
+  padding-top: 20px;
   font-size: 20px;
   color: #888;
+  font-family: "ProximaNovaRegular", "Helvetica", "Arial", "sans-serif";
 }
 
 .main-content {
   background-color: #FFF;
-  padding: 0 30px;
-  padding-top: 20px;
-  border: 1px solid #E0E0E0;
+  padding: 40px;
   font-family: "ProximaNovaRegular", "Helvetica", "Arial", "sans-serif";
+  display: inline-block;
+  height: 353px;
+}
+
+.form {
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 0 30px;
+  padding-top: 30px;
+  border: 1px solid #E0E0E0;
+  vertical-align: top;
 }
 
 .form input {
@@ -59,9 +70,9 @@ body {
 }
 
 .faq {
-  padding-bottom: 20px;
-  float: right;
+  float: left;
   line-height: 24px;
+  padding: 50px;
 }
 
 .faq h4 {
@@ -83,7 +94,7 @@ body {
 }
 
 #wrapper {
-  margin-top: 150px;
+  margin-top: 200px;
   background-color: #fff;
   border-top: 1px solid #ccc;
   width: 100%;
@@ -126,6 +137,34 @@ body {
   border-radius: 3px;
 }
 
-.questions {
-  margin: 40px 0;
+.coy_davidson {
+  border-radius: 2000px;
+  border: 1px solid lightgrey;
+  width: 122px;
+}
+
+.testimonial {
+  background-color: #f0f0f0;
+  width: 100%;
+  padding: 50px;
+}
+
+.quote {
+  font-family: "ProximaNovaLight", "Helvetica", "Arial", "sans-serif";
+  font-style: italic;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.quote-author {
+  font-family: "ProximaNovaLight", "Helvetica", "Arial", "sans-serif";
+  color: #888;
+  padding-left: 20px;
+}
+
+.contact {
+  font-family: "ProximaNovaSemiBold", "Helvetica", "Arial", "sans-serif";
+  text-align: center;
+  font-size: 40px;
+  margin: 100px 0;
 }
